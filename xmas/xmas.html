@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>2021년을 맞이하며</title>
+
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyP_nhLWWPpJywCXyLawyJDF5TbPt3A-cK9g&usqp=CAU">
+
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROf-VuJpbKQXxU3RFv1SZjGAOwS5tc8-PDQg&usqp=CAU">
+        <meta property="og:title" content="사랑스러운 너의 친구 하연이가">
+    <meta property="og:description" content="한 살 더 먹은 기념으로,,,">
+
+        <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Noto Serif KR', serif;
+        }
+
+        body {
+            background-color:rgb(22, 22, 22);
+        }
+
+        .envelope {
+
+            width: 200px;
+            height: 200px;
+
+            background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+            background-size: cover;
+            background-position: center;
+
+            margin: 200px auto 0px auto;
+
+            cursor: pointer;
+
+        }
+
+        .envelope-msg {
+
+            color: rgb(207, 207, 207);
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .letter-close {
+            display: block;
+        }
+
+        .letter-open {
+            display: none;
+        }
+
+        .rtan {
+            background-color: white;
+
+            width: 200px;
+            height: 200px;
+
+            background-image: url('https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/p843x403/135547841_529490448010380_8549734054025981697_o.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeGIHSx6H-mkQpL-B9gXvot_WKrLSeD62khYqstJ4PraSIuigQXN3yQcfFLbIzWpVpQtB-nxcP9uh0X1NwPsffPQ&_nc_ohc=WYvhiLvMtJkAX_e6yhA&_nc_ht=scontent-gmp1-1.xx&tp=6&oh=d03424265106763d238cb086667ffe44&oe=60192852');
+            background-size: cover;
+            background-position: center;
+            margin: 100px auto 0px auto;
+
+            border-radius: 100px;
+            border: 3px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        h1 {
+            color: rgb(187, 187, 187);
+            text-align: center;
+
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .messagebox {
+            background-color: ivory;
+
+            width: 400px;
+            margin: auto;
+            color: rgb(36, 33, 33);
+
+            padding: 30px;
+            font-size: 17px;
+            line-height: 28px;
+            box-shadow: 0px 0px 10px 0px white;
+
+        }
+
+        .from {
+            text-align: right;
+            margin-bottom: 0px;
+
+        }
+
+        @media screen and (max-width: 760px) {
+            .messagebox {
+                width: 300px;
+                padding: 20px;
+
+            }
+
+            .rtan {
+
+                width: 150px;
+                height: 150px;
+
+                margin: 70px auto 0px auto;
+
+            }
+
+            h1 {
+
+                font-size: 28px;
+            }
+
+            .envelope {
+
+                margin: 150px auto 0px auto;
+            }
+        }
+    </style>
+
+    <script>
+        function open_letter() {
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+
+        function go_rtan( ){
+
+alert ('예쁜 건 알아가지고,,ㅎㅎ,,ㅎ')
+window.location.href='https://www.instagram.com/khy__20/'
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+        <h2 class="envelope-msg">봉투를 열어봐!</h2>
+    </div>
+
+    <div class="letter-open">
+        <div class="rtan" onclick="go_rtan( )"></div>
+
+        <h1>2020년 수고 많았어 !</h1>
+        <div class="messagebox">
+            안녕 이제 새로운 2021년이 왔어 <br />
+            2020년도 내 친구하느라 수고했어 <br />
+            2021년은 조금 더 수고하길 바라 <br />
+            망할 코로나 때문에 자주 보지는 못하지만 <br />
+            끝나면 술 몰아서 마시자 나는 5잔만ㅎ,,<br />
+            마지막으로 새해 복 많이 받고<br />
+            올해는 작년보다 더 행복했으면 좋겠다<br />
+            <p class="from">2020.01.05 너의 가장 예쁜 친구 하연이</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
